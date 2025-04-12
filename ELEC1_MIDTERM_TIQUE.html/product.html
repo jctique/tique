@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>product</title>
+  <style>
+    body {
+      background-image: url('backimg.jpeg.jfif');
+      background-size: cover; 
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .head1 {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 50px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 25px 0 0 0;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+
+    li a {
+      color: white;
+      background-color: brown;
+      padding: 8px 15px;
+      text-decoration: none;
+      font-size: 20px;
+      border-radius: 5px;
+      transition: background-color 0.3s, font-size 0.3s;
+    }
+
+    li a:hover {
+      background-color: darkred;
+      font-size: 18px;
+    }
+
+    .main {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin: 40px;
+      text-align: center;
+    }
+
+    .image {
+      height: 110px;
+      border-radius: 10px;
+      background-color: white;
+      border: solid 5px brown;
+      margin-bottom: 10px;
+    }
+
+    .product {
+      max-width: 150px;
+    }
+
+    .footer {
+      background-color: brown;
+      text-align: center;
+      color: white;
+      padding: 10px;
+      font-size: 15px;
+      margin-top: 100px;
+    }
+  </style>
+</head>
+<body>
+  <p class="head1"><strong>Retro Threads</strong></p>
+
+  <ul>
+    <li><a href="home.tique.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="product.html">Products</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+
+  <div class="main">
+    <div class="product">
+      <img src="vintage1.jpeg.jfif" class="image" alt="The Smiths">
+      <p>The Smiths - $20</p>
+    </div>
+    <div class="product">
+      <img src="vintage3.jpeg.jfif" class="image" alt="The Smiths">
+      <p>The Smiths - $20</p>
+    </div>
+    <div class="product">
+      <img src="vintage2.jpeg.jfif" class="image" alt="San Francisco">
+      <p>The San Francisco - $30</p>
+    </div>
+    <div class="product">
+      <img src="vintage4.jpeg.jfif" class="image" alt="FleetWoodMac">
+      <p>FleetWoodMac - $25</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 Vintage Shirts. Retro Threads by Jhon Carlo
+  </div>
+</body>
+</html>
